@@ -156,7 +156,7 @@ def format_line_in_snowflake(lines):
     line = ".:*~*:._" * int(a / 2) + "_" * int(a % 2 + b + 1) + ".:*~*:._" * int(a / 2 - 1) + ".:*~*:."
     
     
-    msg = f"""
+    return f"""
 {line}
 .   {empty_line}                  .
 .   {empty_line}      .      .    .
